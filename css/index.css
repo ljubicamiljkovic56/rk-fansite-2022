@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+.header-image {
+    width: 630px;
+    height: 235px;
+    background-image: url('../images/Remnant-Knights-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+nav { 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: flex;
+    margin: 8px;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color:rgba(234, 166, 63, 0.47);
+    transition: all ease 0.2s;
+    box-shadow: 5px 10px 30px rgba(234, 166, 63, 0.47);
+}
